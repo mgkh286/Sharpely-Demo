@@ -121,7 +121,7 @@ img {
     background-size: cover;
     background-repeat: no-repeat;
     background-position:   bottom center;
-    /* background-attachment: fixed; */
+    background-attachment: fixed;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -177,3 +177,34 @@ img {
     margin: 1.5rem 0;
     line-height: 1.6;
 }
+
+/* Parallax Section  */
+.Parallax {
+    background: url(../img/Small\ Parallax\ .jpg);
+    background-attachment: fixed;
+    background-position: center;
+  
+
+}
+.Parallax .container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  height: 50vh;
+  color: #fff;
+  width: 70%;
+}
+
+.Parallax__heading {
+    font-size: 3rem;
+    font-weight: 400;
+}
+
+.Parallax__text {
+    margin: 2rem auto;
+    line-height: 1.6;
+}
+
+
+
