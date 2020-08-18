@@ -20,6 +20,11 @@ a {
     color: black;
     transition: all .3s ease-in-out;
 }
+
+img {
+    max-width: 100%;
+}
+
 .container {
     margin: 0 auto;
     width: 85%;
@@ -141,3 +146,34 @@ a {
 }
 
 
+/* seo section */
+.seo {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 3rem 0;
+    gap: 4rem;
+}
+
+.seo__imgbox {
+    flex: 2;
+    padding: 3rem 1.7rem;
+}
+.seo__card {
+    flex: 1;
+    min-height: 400px;
+    padding: 2rem 0;
+}
+
+.seo__card h3 {
+    color: #000;
+    margin: 1.5rem 0;
+    font-size: 1.9rem;
+    font-weight: 400;
+}
+
+.seo__card p {
+    color: #666;
+    margin: 1.5rem 0;
+    line-height: 1.6;
+}
