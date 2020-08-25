@@ -234,3 +234,108 @@ img {
 }
 
 
+/* Portfolio projects */
+
+.portfolio {
+    background:#0e1015;
+    position: relative;
+    top: -.5rem;
+}
+
+.portfolio__desc {
+    color: #fff;
+    text-align: center;
+    padding: 2rem 3rem;
+    padding-top: 6rem;
+}
+
+.portfolio__desc h3 {
+    margin: 2rem 0;
+    font-size: 1.8rem;
+    font-weight: 500;
+    letter-spacing: .5px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.portfolio__desc p {
+    font-size: 14px;
+}
+
+.portfolio__projects {
+   display: flex;
+   flex-wrap: wrap;
+}
+.portfolio__project img {
+   object-fit: cover;
+   height: 100%;
+}
+
+.portfolio__project {
+   max-width: 25%;
+   max-height: 260px;
+   background: rgba(0, 0, 0, 0.466);
+   position: relative;
+}
+
+.portfolio__project::after {
+    content: 'project';
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: rgba(32, 32, 32, 0.26);
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 2rem;
+    height: 100%;
+    width: 100%;
+    color :#fff;
+    display: none;
+    
+    transition: all .3s ease-out;
+}
+
+.portfolio__project:hover.portfolio__project::after {
+    display: flex;
+}
+
+.portfolio__project:nth-of-type(1)::after {
+    content: 'project #1';
+}
+
+.portfolio__project:nth-of-type(2)::after {
+    content: 'project #2';
+}
+
+.portfolio__project:nth-of-type(3)::after {
+    content: 'project #3';
+}
+
+.portfolio__project:nth-of-type(4)::after {
+    content: 'project #4';
+}
+
+.portfolio__project:nth-of-type(5)::after {
+    content: 'project #5';
+}
+
+.portfolio__project:nth-of-type(6)::after {
+    content: 'project #6';
+}
+
+.portfolio__project:nth-of-type(7)::after {
+    content: 'project #7';
+}
+
+.portfolio__project:nth-of-type(8)::after {
+    content: 'project #8';
+}
+
+.portfolio__project:nth-of-type(9)::after {
+    content: 'project #9';
+}
+
+.portfolio__project:nth-of-type(10)::after {
+    content: 'project #10';
+}
