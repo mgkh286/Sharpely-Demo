@@ -339,3 +339,23 @@ img {
 .portfolio__project:nth-of-type(10)::after {
     content: 'project #10';
 }
+
+
+
+/* question */
+
+
+
+.question {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 7rem;
+    padding: 5rem 0;
+    background:#F5F5F5;
+}
+
+.question h3 {
+    font-size: 1.8rem;
+    font-weight: 400;
+}
